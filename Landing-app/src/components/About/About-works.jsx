@@ -14,7 +14,7 @@ export default function AboutWorks() {
         Hi, I'm Juan, a passionate software developer
         <span className="inline-flex items-center title-about">
         in Colombia. 
-          <img src={col} alt="hero" data-scroll data-scroll-speed="-0.2" data-scroll-direction="horizontal" className='h-[5rem] hover:scale-105 hover:duration-300 rounded-lg ml-6 mt-40 md:mt-2' />
+          <img src={col} alt="hero" data-scroll data-scroll-speed="-0.4" data-scroll-direction="horizontal" className='h-[5rem] hover:scale-105 hover:duration-300 rounded-lg ml-6 mt-40 md:mt-2' />
         </span>
         <br />
         I like to learn new things every day and challenge myself with new works.
@@ -27,7 +27,7 @@ export default function AboutWorks() {
 
       <div className="about-attached ml-2 tablet-ml-0 tablet-mr-0">
         <div className="about-attached-text text-slate-200/80 text" data-scroll data-scroll-direction="vertical" data-scroll-speed="1">I'm also a</div>
-        <div className="about-attached-title font-white title title-section text-right" data-scroll data-scroll-direction="vertical" data-scroll-speed="2">Frontend<br></br>Developer</div>
+        <div className="about-attached-title font-white title title-section text-right" data-scroll data-scroll-direction="vertical" data-scroll-speed="2">Graphic <br></br>Designer</div>
       </div>
     </section>
   )
