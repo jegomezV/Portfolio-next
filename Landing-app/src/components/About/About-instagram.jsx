@@ -2,8 +2,8 @@ import './About.scss';
 
 export default function AboutInstagram() {
   return (
-    <section id="about-instagram" className="about-instaram-section" data-scroll-section>
-      <div data-scroll data-scroll-speed="0" className="font-white ml-5 tablet-m-0 title-about text-[2.5rem] border-[1px] border-white/50 p-10 rounded-3xl shadow-[0_5px_30px_-15px_rgba(255,255,255,1)]" data-scroll data-scroll-direction="vertical" data-scroll-speed="3">
+    <section id="about-instagram" className="about-instaram-section py-64 px-0  -ml-5" data-scroll-section>
+      <div data-scroll data-scroll-speed="0" className="font-white ml-5 tablet-m-0 title-about text-[2.5rem] w-screen border-[1px] border-white/50 p-20 shadow-[0_5px_30px_-15px_rgba(255,255,255,1)]" data-scroll data-scroll-direction="vertical" data-scroll-speed="3">
         <span className='font-bold normal-case text-[3rem]'>As a software developer</span>,<span className='text-[4.5rem]'> 💻</span><br />
         <br /> I specialize in implementing design patterns in object-oriented and functional paradigms, optimizing code maintainability and efficiency. <span className='text-[3.2rem]'>🛠️</span>
         <br /> I have experience in managing and orchestrating microservices, designing robust and scalable distributed systems.<span className='text-[3.2rem]'>🌐</span>

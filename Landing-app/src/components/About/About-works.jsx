@@ -11,7 +11,7 @@ export default function AboutWorks() {
   return (
     <section id="about" className="about-section" data-scroll-section>
       <div className="font-white ml-1 tablet-m-0 title-about text-[6rem]" data-scroll data-scroll-direction="vertical" data-scroll-speed="2">
-        Hi, I'm Juan, a passionate software developer
+        Hi, I'm Juan, a passionate software developer<br/>
         <span className="inline-flex items-center title-about">
         in Colombia. 
           <img src={col} alt="hero" data-scroll data-scroll-speed="-0.4" data-scroll-direction="horizontal" className='h-[5rem] hover:scale-105 hover:duration-300 rounded-lg ml-6 mt-40 md:mt-2' />
