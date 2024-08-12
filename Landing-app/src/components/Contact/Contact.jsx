@@ -1,7 +1,10 @@
 import "./Contact.scss";
-import contactImage from "../../images/contact.webp"
+import contactImage from "../../images/contact.webp";
 import { useEffect, useState } from 'react';
 import cn from 'classnames';
+
+import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   const [reveal, setReveal] = useState(false);
@@ -57,21 +60,40 @@ export default function Contact() {
         <div className="links-container translate-y-20">
           <div className="links">
             <div className="link-title text">Socials</div>
-            <div className="link text font-white hover-underline-animation"><a href="https://github.com/jegomezV" target="_blank" rel="noreferrer">Github</a></div>
-            {/* <div className="link text font-white hover-underline-animation"><a href="https://www.instagram.com/minhthanh7219/" target="_blank" rel="noreferrer">Instagram</a></div> */}
-            <div className="link text font-white hover-underline-animation"><a href="https://www.linkedin.com/in/jegomez-v/" target="_blank" rel="noreferrer">LinkedIn</a></div>
+            <div className="link text font-white hover-underline-animation">
+              <a href="https://github.com/jegomezV" className="normal-case" target="_blank" rel="noreferrer">
+                <FaGithub className="inline-block mr-5 mb-3 text-4xl" />
+                Github
+              </a>
+            </div>
+            <div className="link text font-white hover-underline-animation">
+              <a href="https://www.linkedin.com/in/jegomez-v/" className="normal-case" target="_blank" rel="noreferrer">
+                <FaLinkedin className="inline-block mr-5 mb-3 text-4xl" />
+                LinkedIn
+              </a>
+            </div>
           </div>
 
           <div className="links">
             <div className="link-title text">Contact</div>
-            <div className="link text font-white hover-underline-animation"><a href="mailto:nmthanh99@gmail.com">jegomezvalencia@gmail.com</a></div>
-            <div className="link text font-white hover-underline-animation"><a href="tel:+33621617481">+57 320-630-9971</a></div>
+            <div className="link text font-white hover-underline-animation">
+              <a href="mailto:jegomezvalencia@gmail.com" className="normal-case">
+                <MdEmail className="inline-block mr-5 text-4xl" />
+                jegomezvalencia@gmail.com
+              </a>
+            </div>
+            <div className="link text font-white hover-underline-animation">
+              <a href="tel:+573206309971">
+                <FaPhone className="inline-block mr-5 text-4xl" />
+                +57 320-630-9971
+              </a>
+            </div>
             <div className="link text font-white hover-underline-animation">&#8205;</div>
           </div>
         </div>
       </div>
 
-      <div className="text designed-by font-white">Designed by Juan Gómez.</div>
+      <div className="text designed-by font-white normal-case text-2xl">Developed by <span className="normal-case text-3xl">Juan Gómez</span></div>
     </section>
-  )
+  );
 }

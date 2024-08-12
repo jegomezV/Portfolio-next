@@ -86,13 +86,23 @@ a {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: none;
+  display: block;
+  z-index: 1;
+}
+
+.title-about {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-transform: none;
   display: block;
   z-index: 1;
 }
 
 .title-hero {
-  font-size: 22vw;
+  font-size: 20vw;
   text-align: left;
   line-height: 80%;
 

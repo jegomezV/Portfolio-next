@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 // Importa las imágenes al inicio del archivo
-import thumbnailWork1 from '../../images/projects/LOL-universe.webp';
+import thumbnailWork1 from '../../images/projects/lol-universe.webp';
 import thumbnailWork2 from '../../images/projects/RE-management.webp';
 import thumbnailWork3 from '../../images/projects/HD-assistante.webp';
 import thumbnailWork4 from '../../images/projects/Self-branding.webp';
@@ -71,23 +71,23 @@ export default function WorksHome() {
   ]
 
   const workSliderContent = works.map((work, key) =>
-    <SwiperSlide key={key} className={cn("work-item", { "is-reveal": reveal })}>
-      <a href={work.link} target="_blank" rel="noreferrer">
-        <div className="work-canvas">
-          <img className="work-item-image" src={work.thumbnail} alt={work.title} data-scroll data-scroll-speed="-2" data-scroll-target=".work-canvas"></img>
-        </div>
-        <div className="work-description">
-          <h3 className="text-24 font-white">{work.title}</h3>
-          <p className="work-detail font-neutral text">{work.detail}</p>
-        </div>
-      </a>
-    </SwiperSlide>
+      <SwiperSlide key={key} className={cn("work-item", { "is-reveal": reveal })}>
+        <a href={work.link} target="_blank" rel="noreferrer">
+          <div className="work-canvas">
+            <img className="work-item-image" src={work.thumbnail} alt={work.title} data-scroll data-scroll-speed="-2" data-scroll-target=".work-canvas"></img>
+          </div>
+          <div className="work-description">
+            <h3 className="text-24 font-white">{work.title}</h3>
+            <p className="work-detail font-neutral text">{work.detail}</p>
+          </div>
+        </a>
+      </SwiperSlide>
   )
 
   return (
     <section id="works-home" className={cn("home-works-section", { "is-reveal": reveal })} data-scroll-section>
       <h2 ref={ref} id="works-title" className={cn("works-title title title-works font-white", { "is-reveal": reveal })} data-scroll data-scroll-direction="vertical" data-scroll-speed="2">Recent Works</h2>
-
+      <h2 data-scroll data-scroll-speed="3.5" data-scroll-direction="horizontal" className='text-white absolute right-32 top-96 normal-case text-5xl title-about'>&lt;&lt; Slide to left</h2>
       <Swiper slidesPerView={"auto"} className="work-slider">
         {workSliderContent}
       </Swiper>

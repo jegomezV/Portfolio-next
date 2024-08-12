@@ -6,7 +6,7 @@ import './styles/index.scss';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter> {/* Envuelve App con BrowserRouter */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
