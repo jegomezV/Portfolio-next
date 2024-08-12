@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 // Importa las imágenes al inicio del archivo
-import thumbnailWork1 from '../../images/projects/lol-universe.webp';
+import thumbnailWork1 from '../../images/projects/fashionWeb.webp';
 import thumbnailWork2 from '../../images/projects/RE-management.webp';
 import thumbnailWork3 from '../../images/projects/HD-assistante.webp';
 import thumbnailWork4 from '../../images/projects/Self-branding.webp';
@@ -33,10 +33,10 @@ export default function WorksHome() {
       "link": "https://www.q-encysoft.com",
     },
     {
-      "title": "Maylevia",
+      "title": "Fashion Website",
       "thumbnail": thumbnailWork1,
       "detail": "UI / UX Design, Development, Webflow",
-      "link": "",
+      "link": "https://next-ts-website-o0ouxgtwe-juan-eduardo-gomezs-projects.vercel.app",
     },
     {
       "title": "Jasmin Bonheur",
