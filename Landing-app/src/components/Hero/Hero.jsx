@@ -2,7 +2,7 @@ import './Hero.scss';
 import { useEffect, useState } from 'react';
 // import gsap from 'gsap';
 // import SplitText from '../../utils/SplitText3.min.js'
-import hero from "../../images/juanPhoto.webp";
+import hero from "../../images/workImage.webp";
 import cn from 'classnames';
 
 export default function Hero() {
@@ -10,28 +10,6 @@ export default function Hero() {
 
   useEffect(() => {
     setTimeout(() => setReveal(true), 100);
-  }, []);
-
-  useEffect(() => {
-    // // --------------------------------------------------------
-    // // Text appear animation
-    // const split = new SplitText("#hero-titl e", {
-    //   type: "lines",
-    //   linesClass: "lineChildren",
-    // });
-
-    // new SplitText("#hero-title", {
-    //   type: "lines",
-    //   linesClass: "lineParent",
-    // });
-
-    // gsap.to(split.lines, {
-    //   duration: .8,
-    //   y: 0,
-    //   opacity: 1,
-    //   stagger: 0.1,
-    //   ease: "var(--custom-ease-out)",
-    // });
   }, []);
 
   return (
@@ -51,7 +29,7 @@ export default function Hero() {
 
       </div>
 
-      <div className={cn("hero-image", { "is-reveal": reveal })}>
+      <div className={cn("hero-image mb-20", { "is-reveal": reveal })}>
         <img src={hero} alt="hero" data-scroll data-scroll-speed="-1" data-scroll-target=".hero-image"></img>
       </div>
 

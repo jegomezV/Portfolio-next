@@ -9,7 +9,7 @@ export default function AboutWorks() {
   const [reveal, setReveal] = useState(false);
 
   return (
-    <section id="about" className="about-section" data-scroll-section>
+    <section id="about" className="about-section border-b-[1px]" data-scroll-section>
       <div className="font-white ml-1 tablet-m-0 title-about text-[6rem]" data-scroll data-scroll-direction="vertical" data-scroll-speed="2">
         Hi, I'm Juan, a passionate software developer<br/>
         <span className="inline-flex items-center title-about">
@@ -26,8 +26,8 @@ export default function AboutWorks() {
       </div>
 
       <div className="about-attached ml-2 tablet-ml-0 tablet-mr-0">
-        <div className="about-attached-text text-slate-200/80 text" data-scroll data-scroll-direction="vertical" data-scroll-speed="1">I'm also a</div>
-        <div className="about-attached-title font-white title title-section text-right" data-scroll data-scroll-direction="vertical" data-scroll-speed="2">Graphic <br></br>Designer</div>
+        <div className="about-attached-text text-slate-200/80 text" data-scroll data-scroll-direction="vertical" data-scroll-speed="1">I'm currently focused on</div>
+        <div className="about-attached-title font-white title title-section text-right" data-scroll data-scroll-direction="vertical" data-scroll-speed="2">Backend <br></br>development</div>
       </div>
     </section>
   )

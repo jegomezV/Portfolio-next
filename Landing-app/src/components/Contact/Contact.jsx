@@ -45,7 +45,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <section id="contact" className="contact-section" data-scroll-section>
+    <section id="contact" className="contact-section border-t-[1px]" data-scroll-section>
       <div className="wrapper-rolling-text">
         <div className="rolling-text font-white title title-contact">
           <span>Get in touch · Get in touch ·&nbsp;</span>

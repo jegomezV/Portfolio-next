@@ -53,7 +53,7 @@ export default function Menu() {
         <div className="menu__inner">
           <div>
             <a href="#home">
-              <img src={logo} className='h-[12rem] w-[14rem] absolute -top-8 md:-top-5 -translate-x-[5rem] md:-translate-x-[11rem]' alt="MT. Logo" />
+              <img src={logo} className='h-[12rem] w-[14rem] absolute -top-8 md:-top-5 -translate-x-[5rem] md:-translate-x-[11rem]' alt="JG. Logo" />
             </a>
           </div>
           <div className="menu__inner--links">
