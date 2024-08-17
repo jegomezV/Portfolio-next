@@ -37,7 +37,7 @@ export default function WorksHome() {
       "thumbnail": thumbnailWork1,
       "detail": "UI / UX Design, Development, Webflow",
       "link": "https://next-ts-website-o0ouxgtwe-juan-eduardo-gomezs-projects.vercel.app",
-    },
+    }/* ,
     {
       "title": "Jasmin Bonheur",
       "thumbnail": thumbnailWork4,
@@ -67,7 +67,7 @@ export default function WorksHome() {
       "thumbnail": thumbnailWork6,
       "detail": "UI / UX Design",
       "link": "",
-    }
+    } */
   ]
 
   const workSliderContent = works.map((work, key) =>
