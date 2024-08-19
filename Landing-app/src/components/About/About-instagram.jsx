@@ -12,8 +12,8 @@ export default function AboutInstagram() {
         <br /> I keep my skills and knowledge at the forefront of technological trends, developing and deploying solutions using modern technologies and advanced software development practices. <span className='text-[3.2rem]'>🚀</span>
       </div>
       <div className='flex flex-col items-center'>
-        <div className="font-neutral ml-5 mt-24 tablet-ml-0 text" data-scroll data-scroll-direction="vertical" data-scroll-speed="1">
-          Check out<br />my LinkedIn &#8594; <a className="font-white hover-underline-animation" href="https://www.linkedin.com/in/jegomez-v/" target="_blank" rel="noreferrer">HERE</a> 🔗
+        <div className="font-neutral ml-5 mt-24 tablet-ml-0 text-5xl" data-scroll data-scroll-direction="vertical" data-scroll-speed="1">
+          Check out<br />my LinkedIn &#8594; <a className="font-white text-5xl hover-underline-animation" href="https://www.linkedin.com/in/jegomez-v/" target="_blank" rel="noreferrer">HERE</a> 🔗
         </div>
       </div>
 
