@@ -36,7 +36,7 @@ export default function WorksHome() {
       "title": "Fashion Website",
       "thumbnail": thumbnailWork1,
       "detail": "UI / UX Design, Development, Webflow",
-      "link": "https://imbeauty.vercel.app",
+      "link": "https://antihegemonicmolds.vercel.app",
     }/* ,
     {
       "title": "Jasmin Bonheur",
